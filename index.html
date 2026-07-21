@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uchinadix: Diccionario en Uchinaguchi-Español</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="support-header">
+        <a href="https://ko-fi.com/softpaul" target="_blank" class="kofi-top-button">
+            ☕ Apóyanos en Ko-fi
+        </a>
+    </div>
+    <div class="dictionary-container">
+        <h1>Diccionario Uchinaguchi-Español</h1>
+        
+        <div class="buscador-container">
+            <div class="grupo-busqueda">
+                <label for="buscarUchina">Buscar en Uchinaguchi:</label>
+                <input type="text" id="buscarUchina" placeholder="Ej. haisai, nifee...">
+            </div>
+            
+            <div class="grupo-busqueda">
+                <label for="buscarSignificado">Buscar por Significado (Español):</label>
+                <input type="text" id="buscarSignificado" placeholder="Ej. hola, gracias...">
+            </div>
+        </div>
+
+        <!-- Aquí se renderizarán los resultados -->
+        <div id="resultados"></div>
+    </div>
+    <footer class="footer-creditos">
+        <p>Fuente: Diccionario Okinawense-Castellano — Munetaka Ganaha</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
